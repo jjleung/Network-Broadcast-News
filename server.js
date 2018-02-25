@@ -1,5 +1,5 @@
 const net = require("net");
-const PORT = 7070;
+const PORT = 6969;
 process.stdin.setEncoding("utf8");
 const users = [];
 let idNum = 0;

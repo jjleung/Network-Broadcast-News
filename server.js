@@ -6,6 +6,7 @@ let idNum = 0;
 const chatLog = [];
 
 const server = net.createServer(client => {
+  client.write("sup dawg");
   client.on("data", data => {
     let msg = data.toString();
     let theUser;

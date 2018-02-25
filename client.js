@@ -2,7 +2,7 @@ const net = require("net");
 let username = "rando";
 let userid;
 process.stdin.setEncoding("utf8");
-const server = net.createConnection(6969, "0.0.0.0", () => {
+const server = net.createConnection(6969, "34.206.147.23", () => {
   console.log(".....▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄........");
   console.log(".....█....▒▒▒▒▒▒▒▒▒▒▒▒..▀▀▄....");
   console.log("....█...▒▒▒▒▒▒........▒▒▒..█...");
